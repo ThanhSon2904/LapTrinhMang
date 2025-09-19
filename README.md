@@ -67,5 +67,14 @@ java Client
 → Client kết nối đến server.
 - Bước 4: Trao đổi dữ liệu
 Client nhập tin nhắn trong console.
+
+## Thông tin liên hệ  
+Họ tên: Nguyễn Thanh Sơn.  
+Lớp: CNTT 16-01.  
+Email: sonn29042004@gmail.com.
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+
+---
 Server nhận và hiển thị nội dung.
 Có thể mở nhiều client để kết nối vào server.
