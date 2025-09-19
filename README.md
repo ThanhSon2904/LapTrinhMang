@@ -37,9 +37,7 @@ Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat
 
 ## 🚀 3. Hình ảnh các chức năng
 
-<img src="https://github.com/ThanhSon2904/L-p-Tr-nh-M- ng/blob/main/Chat%20nh%C3%B3m%20b%E1%BA%B1ng%20RMI/%E1%BA%A2nh/Screenshot%202025-09-19%20080756.png?raw=true" alt="Chức năng đăng nhập" width="700"/>
 
-*Hình 1: Ảnh Server khởi động thành công*
 
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
