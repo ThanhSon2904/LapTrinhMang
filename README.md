@@ -20,61 +20,54 @@
 
 ## 📖 1. Giới thiệu hệ thống
 
-Hệ thống được xây dựng theo mô hình Client – Server nhằm mục đích trao đổi dữ liệu và gửi/nhận tin nhắn giữa hai phía thông qua lập trình socket trong Java.
-Server: đóng vai trò trung tâm, lắng nghe các kết nối từ client. Sau khi có kết nối, server nhận dữ liệu từ client và có thể phản hồi ngược lại.
-Client: đóng vai trò gửi yêu cầu đến server, truyền dữ liệu/tin nhắn và chờ phản hồi.
+Hệ thống được xây dựng theo mô hình Client – Server nhằm mục đích trao đổi dữ liệu và gửi/nhận tin nhắn giữa hai phía thông qua lập trình socket trong Java.  
+- **Server**: đóng vai trò trung tâm, lắng nghe các kết nối từ client. Sau khi có kết nối, server nhận dữ liệu từ client và có thể phản hồi ngược lại.  
+- **Client**: đóng vai trò gửi yêu cầu đến server, truyền dữ liệu/tin nhắn và chờ phản hồi.  
 Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat, truyền tin hoặc trao đổi dữ liệu trong thực tế, giúp người học nắm vững cách xây dựng ứng dụng phân tán bằng Java.
 
 ## 🔧 2. Công nghệ sử dụng
 
-Ngôn ngữ lập trình: Java (JDK 8+).
-Mô hình mạng: Client–Server.
-Kỹ thuật:
-Java Socket API (java.net.Socket, java.net.ServerSocket) để thiết lập kết nối TCP.
-Luồng I/O (InputStream, OutputStream, BufferedReader, PrintWriter) để đọc/ghi dữ liệu qua mạng.
-IDE khuyến nghị: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal).
-Hệ điều hành: Windows/Linux/macOS.
+- **Ngôn ngữ lập trình**: Java (JDK 8+).  
+- **Mô hình mạng**: Client–Server.  
+- **Kỹ thuật**:  
+  - Java Socket API (`java.net.Socket`, `java.net.ServerSocket`) để thiết lập kết nối TCP.  
+  - Luồng I/O (`InputStream`, `OutputStream`, `BufferedReader`, `PrintWriter`) để đọc/ghi dữ liệu qua mạng.  
+- **IDE khuyến nghị**: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal).  
+- **Hệ điều hành**: Windows/Linux/macOS.
 
 ## 🚀 3. Hình ảnh các chức năng
 
-<p align="center">
 <img src="https://github.com/ThanhSon2904/L-p-Tr-nh-M- ng/blob/main/Chat%20nh%C3%B3m%20b%E1%BA%B1ng%20RMI/%E1%BA%A2nh/Screenshot%202025-09-19%20080756.png?raw=true" alt="Chức năng đăng nhập" width="700"/>
-</p>
 
-<p align="center">
-  <em>Hình 1: Ảnh Server khởi động thành công </em>
-</p>
-
+*Hình 1: Ảnh Server khởi động thành công*
 
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
-- Bước 1: Chuẩn bị môi trường
-Cài đặt Java JDK 8 trở lên.
-Kiểm tra bằng lệnh:
+- **Bước 1: Chuẩn bị môi trường**  
+  Cài đặt Java JDK 8 trở lên.  
+  Kiểm tra bằng lệnh:
 java -version
 javac -version
-- Bước 2: Biên dịch mã nguồn
-Mở terminal/cmd tại thư mục chứa file .java.
+text- **Bước 2: Biên dịch mã nguồn**  
+Mở terminal/cmd tại thư mục chứa file `.java`.  
 Chạy lệnh:
 javac server.java
 javac Client.java
-- Bước 3: Chạy chương trình
+text- **Bước 3: Chạy chương trình**  
 Mở cửa sổ terminal 1 để chạy server:
 java server
-→ Server khởi động và lắng nghe kết nối.
+text→ Server khởi động và lắng nghe kết nối.  
 Mở cửa sổ terminal 2 để chạy client:
 java Client
-→ Client kết nối đến server.
-- Bước 4: Trao đổi dữ liệu
-Client nhập tin nhắn trong console.
+text→ Client kết nối đến server.  
+- **Bước 4: Trao đổi dữ liệu**  
+Client nhập tin nhắn trong console.  
+Server nhận và hiển thị nội dung.  
+Có thể mở nhiều client để kết nối vào server.
 
 ## Thông tin liên hệ  
-Họ tên: Nguyễn Thanh Sơn.  
-Lớp: CNTT 16-01.  
-Email: sonn29042004@gmail.com.
+- **Họ tên**: Nguyễn Thanh Sơn.  
+- **Lớp**: CNTT 16-01.  
+- **Email**: sonn29042004@gmail.com.  
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
-
----
-Server nhận và hiển thị nội dung.
-Có thể mở nhiều client để kết nối vào server.
