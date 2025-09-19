@@ -43,16 +43,16 @@ Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
 - **Bước 1: Chuẩn bị môi trường**  
-  Cài đặt Java JDK 8 trở lên.  
-  Kiểm tra bằng lệnh:
+Cài đặt Java JDK 8 trở lên.  
+Kiểm tra bằng lệnh:
 java -version
 javac -version
-text- **Bước 2: Biên dịch mã nguồn**  
+- **Bước 2: Biên dịch mã nguồn**  
 Mở terminal/cmd tại thư mục chứa file `.java`.  
 Chạy lệnh:
 javac server.java
 javac Client.java
-text- **Bước 3: Chạy chương trình**  
+- **Bước 3: Chạy chương trình**  
 Mở cửa sổ terminal 1 để chạy server:
 java server
 text→ Server khởi động và lắng nghe kết nối.  
