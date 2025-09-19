@@ -18,14 +18,17 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 
-## 📖 1. Giới thiệu hệ thống
+# 📖 1. Giới thiệu hệ thống
 
 Hệ thống được xây dựng theo mô hình Client – Server nhằm mục đích trao đổi dữ liệu và gửi/nhận tin nhắn giữa hai phía thông qua lập trình socket trong Java.  
 - **Server**: đóng vai trò trung tâm, lắng nghe các kết nối từ client. Sau khi có kết nối, server nhận dữ liệu từ client và có thể phản hồi ngược lại.  
 - **Client**: đóng vai trò gửi yêu cầu đến server, truyền dữ liệu/tin nhắn và chờ phản hồi.  
+
 Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat, truyền tin hoặc trao đổi dữ liệu trong thực tế, giúp người học nắm vững cách xây dựng ứng dụng phân tán bằng Java.
 
-## 🔧 2. Công nghệ sử dụng
+---
+
+# 🔧 2. Công nghệ sử dụng
 
 - **Ngôn ngữ lập trình**: Java (JDK 8+).  
 - **Mô hình mạng**: Client–Server.  
@@ -35,9 +38,7 @@ Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat
 - **IDE khuyến nghị**: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal).  
 - **Hệ điều hành**: Windows/Linux/macOS.
 
-## 🚀 3. Hình ảnh các chức năng
-
-
+# 🚀 3. Hình ảnh các chức năng
 
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
