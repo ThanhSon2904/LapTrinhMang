@@ -27,13 +27,15 @@
 
 # 🔧 2. Công nghệ sử dụng
 
-- Ngôn ngữ lập trình: Java (JDK 8+)
--  Mô hình mạng : Client–Server
-- **Kỹ thuật**:
-  - Java Socket API (`java.net.Socket`, `java.net.ServerSocket`) để thiết lập kết nối TCP
-  - Luồng I/O (`InputStream`, `OutputStream`, `BufferedReader`, `PrintWriter`) để đọc/ghi dữ liệu qua mạng
-- **IDE khuyến nghị**: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal)
-- **Hệ điều hành**: Windows/Linux/macOS
+<p align="left">
+Ngôn ngữ lập trình: Java (JDK 8+)<br>
+Mô hình mạng: Client–Server<br><br>
+Kỹ thuật:<br>
+- Java Socket API (<code>java.net.Socket</code>, <code>java.net.ServerSocket</code>) để thiết lập kết nối TCP<br>
+- Luồng I/O (<code>InputStream</code>, <code>OutputStream</code>, <code>BufferedReader</code>, <code>PrintWriter</code>) để đọc/ghi dữ liệu qua mạng<br><br>
+IDE khuyến nghị: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal)<br>
+Hệ điều hành: Windows/Linux/macOS
+</p>
 
 # 🚀 3. Hình ảnh các chức năng
 
