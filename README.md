@@ -45,24 +45,31 @@ Hệ điều hành: Windows/Linux/macOS
 
 <p align="left">
 <b>Bước 1: Chuẩn bị môi trường</b><br>
-- Cài đặt Java JDK 8 trở lên.<br>
-- Kiểm tra bằng lệnh: <code>java -version</code> và <code>javac -version</code>.<br><br>
+Cài đặt Java JDK 8 trở lên.<br>
+Kiểm tra bằng lệnh:<br>
+<code>java -version</code><br>
+<code>javac -version</code><br><br>
 
 <b>Bước 2: Biên dịch mã nguồn</b><br>
-- Mở terminal/cmd tại thư mục chứa file <code>.java</code>.<br>
-- Chạy lệnh:<br>
+Mở terminal/cmd tại thư mục chứa file .java<br>
+Chạy lệnh:<br>
 <code>javac server.java</code><br>
 <code>javac Client.java</code><br><br>
 
 <b>Bước 3: Chạy chương trình</b><br>
-- Mở terminal 1 để chạy server: <code>java server</code> → Server khởi động và lắng nghe kết nối.<br>
-- Mở terminal 2 để chạy client: <code>java Client</code> → Client kết nối đến server.<br><br>
+Mở terminal 1 để chạy server:<br>
+<code>java server</code><br>
+Server khởi động và lắng nghe kết nối.<br>
+Mở terminal 2 để chạy client:<br>
+<code>java Client</code><br>
+Client kết nối đến server.<br><br>
 
 <b>Bước 4: Trao đổi dữ liệu</b><br>
-- Client nhập tin nhắn trong console.<br>
-- Server nhận và hiển thị nội dung.<br>
-- Có thể mở nhiều client để kết nối vào server.
+Client nhập tin nhắn trong console.<br>
+Server nhận và hiển thị nội dung.<br>
+Có thể mở nhiều client để kết nối vào server.<br>
 </p>
+
 
 ## Thông tin liên hệ  
 - **Họ tên**: Nguyễn Thanh Sơn.  
