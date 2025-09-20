@@ -43,27 +43,27 @@ Hệ điều hành: Windows/Linux/macOS
 
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
-- Bước 1 : Chuẩn bị môi trường
-Cài đặt Java JDK 8 trở lên.  
-Kiểm tra bằng lệnh:
-java -version
-javac -version
-- **Bước 2: Biên dịch mã nguồn**  
-Mở terminal/cmd tại thư mục chứa file `.java`.  
-Chạy lệnh:
-javac server.java
-javac Client.java
-- **Bước 3: Chạy chương trình**  
-Mở cửa sổ terminal 1 để chạy server:
-java server
-text→ Server khởi động và lắng nghe kết nối.  
-Mở cửa sổ terminal 2 để chạy client:
-java Client
-text→ Client kết nối đến server.  
-- **Bước 4: Trao đổi dữ liệu**  
-Client nhập tin nhắn trong console.  
-Server nhận và hiển thị nội dung.  
-Có thể mở nhiều client để kết nối vào server.
+<p align="left">
+<b>Bước 1: Chuẩn bị môi trường</b><br>
+- Cài đặt Java JDK 8 trở lên.<br>
+- Kiểm tra bằng lệnh: <code>java -version</code> và <code>javac -version</code>.<br><br>
+
+<b>Bước 2: Biên dịch mã nguồn</b><br>
+- Mở terminal/cmd tại thư mục chứa file <code>.java</code>.<br>
+- Chạy lệnh:<br>
+<code>javac server.java</code><br>
+<code>javac Client.java</code><br><br>
+
+<b>Bước 3: Chạy chương trình</b><br>
+- Mở terminal 1 để chạy server: <code>java server</code> → Server khởi động và lắng nghe kết nối.<br>
+- Mở terminal 2 để chạy client: <code>java Client</code> → Client kết nối đến server.<br><br>
+
+<b>Bước 4: Trao đổi dữ liệu</b><br>
+- Client nhập tin nhắn trong console.<br>
+- Server nhận và hiển thị nội dung.<br>
+- Có thể mở nhiều client để kết nối vào server.
+</p>
+
 
 ## Thông tin liên hệ  
 - **Họ tên**: Nguyễn Thanh Sơn.  
