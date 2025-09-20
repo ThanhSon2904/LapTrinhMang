@@ -70,9 +70,9 @@ Có thể mở nhiều client để kết nối vào server.<br>
 
 ## Thông tin liên hệ  
 <p align="left">
-Họ tên: Nguyễn Thanh Sơn<br>
-Lớp: CNTT 16-01<br>
-Email: sonn29042004@gmail.com
+- Họ tên: Nguyễn Thanh Sơn<br>
+- Lớp: CNTT 16-01<br>
+- Email: sonn29042004@gmail.com
 </p>
 
 
