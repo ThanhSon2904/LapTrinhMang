@@ -20,7 +20,7 @@
 
 # 📖 1. Giới thiệu hệ thống
 
-Hệ thống được xây dựng theo mô hình Client – Server nhằm mục đích trao đổi dữ liệu và gửi/nhận tin nhắn giữa hai phía thông qua lập trình socket trong Java.  
+Hệ  
 - **Server**: đóng vai trò trung tâm, lắng nghe các kết nối từ client. Sau khi có kết nối, server nhận dữ liệu từ client và có thể phản hồi ngược lại.  
 - **Client**: đóng vai trò gửi yêu cầu đến server, truyền dữ liệu/tin nhắn và chờ phản hồi.  
 
