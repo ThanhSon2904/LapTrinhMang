@@ -64,7 +64,6 @@ Hệ điều hành: Windows/Linux/macOS
 - Có thể mở nhiều client để kết nối vào server.
 </p>
 
-
 ## Thông tin liên hệ  
 - **Họ tên**: Nguyễn Thanh Sơn.  
 - **Lớp**: CNTT 16-01.  
