@@ -28,7 +28,7 @@ Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat
 # 🔧 2. Công nghệ sử dụng
 
 - Ngôn ngữ lập trình: Java (JDK 8+)
-- Mô hình mạng : Client–Server
+-  Mô hình mạng : Client–Server
 - **Kỹ thuật**:
   - Java Socket API (`java.net.Socket`, `java.net.ServerSocket`) để thiết lập kết nối TCP
   - Luồng I/O (`InputStream`, `OutputStream`, `BufferedReader`, `PrintWriter`) để đọc/ghi dữ liệu qua mạng
