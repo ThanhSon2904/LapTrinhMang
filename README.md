@@ -71,6 +71,6 @@ Có thể mở nhiều client để kết nối vào server.<br>
 ## Thông tin liên hệ  
 - Họ tên: Nguyễn Thanh Sơn.  
 - Lớp : CNTT 16-01.  
-- **Email**: sonn29042004@gmail.com.  
+- Email: sonn29042004@gmail.com.  
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
