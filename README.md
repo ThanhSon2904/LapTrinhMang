@@ -4,13 +4,13 @@
     </a>
 </h2>
 <h2 align="center">
-   XÂY DỰNG ỨNG DỤNG CHAT CLIENT-SERVER SỬ DỤNG GIAO THỨC TCP
+   Chat nhóm bằng RMI
 </h2>
 <div align="center">
     <p align="center">
-      <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…O%20TH%E1%BB%A8C%20TCP/%E1%BA%A2nh/aiotlab_logo.png?raw=true" alt="AIoTLab Logo" width="170"/>
-      <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…AO%20TH%E1%BB%A8C%20TCP/%E1%BA%A2nh/fitdnu_logo.png?raw=true" alt="FITDNU Logo" width="180"/>
-      <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…0GIAO%20TH%E1%BB%A8C%20TCP/%E1%BA%A2nh/dnu_logo.png?raw=true" alt="DaiNam University Logo" width="200"/>
+      <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817800988_bd4f94fd23cb498776fdad1ad7b8fc7e.jpg?raw=true" alt="AIoTLab Logo" width="170"/>
+      <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817704248_4ff8a524df07723a4f18bb38d1383399.jpg?raw=true" width="180"/>
+      <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true" alt="DaiNam University Logo" width="200"/>
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -41,54 +41,33 @@ Hệ điều hành: Windows/Linux/macOS
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-<img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…A9c%20n%C4%83ng%20%C4%91%C4%83ng%20nh%E1%BA%ADp.png?raw=true" alt="Chức năng đăng nhập" width="700"/>
+<img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/giao%20di%E1%BB%87n.png?raw=true" alt="Chức năng đăng nhập" width="600"/>
 </p>
 
 <p align="center">
-  <em>Hình 1: Ảnh Chức năng đăng nhập  </em>
+  <em>Hình 1: Ảnh giao diện  </em>
 </p>
 
 <p align="center">
-<img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…1%BB%A9c%20n%C4%83ng%20%C4%91%C4%83ng%20k%C3%BD.png?raw=true" alt="Chức năng đăng ký" width="700"/>
+<img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/2%20ng%C6%B0%E1%BB%9Di%20chat%20v%E1%BB%9Bi%20nhau.png?raw=true" alt="Chức năng đăng ký" width="600"/>
 </p>
 <p align="center">
-  <em> Hình 2: Chức năng đăng ký </em>
-</p>
-
-
-<p align="center">
-  <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…4ng%20bao%20tham%20gia%20th%C3%A0nh%20c%C3%B4ng.png?raw=true" alt="Hệ thống thông báo tham gia thành công" width="800"/>
-</p>
-<p align="center">
-  <em> Hình 3: Hai Client chat với nhau.</em>
+  <em> Hình 2: ảnh 2 người chat với nhau </em>
 </p>
 
+
 <p align="center">
-  <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…0ng%C6%B0%E1%BB%9Di%20chat%20v%E1%BB%9Bi%20nhau.png?raw=true" alt="Giao diện hai người chat với nhau" width="800"/>
+  <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/%C4%91%C4%83ng%20k%C3%BD.png?raw=true" alt="Hệ thống thông báo tham gia thành công" width="400"/>
 </p>
 <p align="center">
-  <em> Hình 4: Giao diện hai người chat với nhau </em>
+  <em> Hình 3: đăng ký  .</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…20TH%E1%BB%A8C%20TCP/%E1%BA%A2nh/4%20Collection.png?raw=true" alt="Bộ sưu tập 4" width="800"/>
+  <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/%C4%91%C4%83ng%20nh%E1%BA%ADp.png?raw=true" alt="Giao diện hai người chat với nhau" width="400"/>
 </p>
 <p align="center">
-  <em> Hình 5: 4 Collection.</em>
-</p>
-
-<p align="center">
-  <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…%BA%A2nh/Collection%20tr%E1%BA%A1ng%20th%C3%A1i.png?raw=true" alt="Bộ sưu tập trạng thái" width="800"/>
-</p>
-<p align="center">
-  <em> Hình 6: Ảnh trạng thái </em>
-</p>
-
-<p align="center">
-    <img src="https://github.com/Tank97king/LapTrinhMang/blob/main/X%C3%8…TCP/%E1%BA%A2nh/Collection%20tin%20nh%E1%BA%AFn.png?raw=true" alt="Bộ sưu tập tin nhắn" width="800"/>
-</p>
-<p align="center">
-  <em> Hình 7: Ảnh lưu tập tin nhắn</em>
+  <em> Hình 4: đăng nhập </em>
 </p>
 
 
