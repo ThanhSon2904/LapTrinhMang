@@ -1,36 +1,24 @@
-<h2 align="center">
-  🎓 Faculty of Information Technology <br/>(DaiNam University)
-</h2>
-
-<h3 align="center">
-  💬 Chat nhóm bằng RMI
-</h3>
-
-<div align="center">
-
-  <!-- Logo hàng trên -->
-  <p>
-    <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817800988_bd4f94fd23cb498776fdad1ad7b8fc7e.jpg?raw=true" 
-         alt="AIoTLab Logo" width="150"/>
-    <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817704248_4ff8a524df07723a4f18bb38d1383399.jpg?raw=true" 
-         alt="FIT Logo" width="150"/>
-    <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true" 
-         alt="DaiNam University Logo" width="170"/>
-  </p>
-
-  <!-- Badge hàng dưới -->
-  <p>
-    <a href="https://www.facebook.com/DNUAIoTLab">
-      <img src="https://img.shields.io/badge/AIOTLAB-8BC34A?style=for-the-badge&logoColor=white" alt="AIoTLab"/>
-    </a>
-    <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-      <img src="https://img.shields.io/badge/FACULTY%20OF%20INFORMATION%20TECHNOLOGY-2196F3?style=for-the-badge&logoColor=white" alt="Faculty of IT"/>
-    </a>
-    <a href="https://dainam.edu.vn">
-      <img src="https://img.shields.io/badge/DAINAM%20UNIVERSITY-FF5722?style=for-the-badge&logoColor=white" alt="DaiNam University"/>
-    </a>
-  </p>
-
+<<h2 align="center"> 🎓 Faculty of Information Technology <br/>(DaiNam University) </h2> 
+<h3 align="center"> 💬 Chat nhóm bằng RMI </h3> 
+<div align="center"> 
+    <!-- Logo hàng trên --> 
+    <p> 
+        <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817800988_bd4f94fd23cb498776fdad1ad7b8fc7e.jpg?raw=true" alt="AIoTLab Logo" width="150" style="background: none;"/> 
+        <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817704248_4ff8a524df07723a4f18bb38d1383399.jpg?raw=true" alt="FIT Logo" width="150" style="background: none;"/> 
+        <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true" alt="DaiNam University Logo" width="170" style="background: none;"/> 
+    </p> 
+    
+    <p> 
+        <a href="https://www.facebook.com/DNUAIoTLab"> 
+            <img src="https://img.shields.io/badge/AIOTLAB-8BC34A?style=for-the-badge&logoColor=white" alt="AIoTLab"/> 
+        </a> 
+        <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"> 
+            <img src="https://img.shields.io/badge/FACULTY%20OF%20INFORMATION%20TECHNOLOGY-2196F3?style=for-the-badge&logoColor=white" alt="Faculty of IT"/> 
+        </a> 
+        <a href="https://dainam.edu.vn"> 
+            <img src="https://img.shields.io/badge/DAINAM%20UNIVERSITY-FF5722?style=for-the-badge&logoColor=white" alt="DaiNam University"/> 
+        </a> 
+    </p> 
 </div>
 
 
