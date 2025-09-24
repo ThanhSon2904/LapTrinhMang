@@ -8,7 +8,7 @@ Trò chuyện nhóm bằng RMI
 </h2>
 <div align="center">
 <p align="center">
-<img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817800988_bd4f94fd23cb498776fdad1ad7b8fc7e.jpg?raw=true" alt="Logo AIoTLab" width="170"/>
+<img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/iot.png?raw=true" alt="Logo AIoTLab" width="170"/>
 <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/cntt.png?raw=true" width="180"/>
 <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/dainam.png?raw=true" alt="Logo Đại học Đại Nam" width="200"/>
 </p>
