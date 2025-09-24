@@ -10,7 +10,7 @@ Trò chuyện nhóm bằng RMI
 <p align="center">
 <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817800988_bd4f94fd23cb498776fdad1ad7b8fc7e.jpg?raw=true" alt="Logo AIoTLab" width="170"/>
 <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817704248_4ff8a524df07723a4f18bb38d1383399.jpg?raw=true" width="180"/>
-<img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true" alt="Logo Đại học Đại Nam" width="200"/>
+<img src="[https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true](https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/dainam.png?raw=true)" alt="Logo Đại học Đại Nam" width="200"/>
 </p>
 <p align="center">
 <a href="https://www.facebook.com/DNUAIoTLab">
