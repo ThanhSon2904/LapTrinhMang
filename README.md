@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   XÂY DỰNG ỨNG DỤNG CHAT CLIENT-SERVER SỬ DỤNG GIAO THỨC TCP
+   CHAT NHÓM BẰNG RMI
 </h2>
 <div align="center">
     <p align="center">
