@@ -29,22 +29,41 @@ Trò chuyện nhóm bằng RMI
 ## 📖 1. Giới thiệu hệ thống
 
 
-- Hệ thống được xây dựng theo mô hình Client – Server nhằm mục đích trao đổi dữ liệu và gửi/nhận tin nhắn giữa hai phía thông qua lập trình socket trong Java.  
-- **Server**: đóng vai trò trung tâm, lắng nghe các kết nối từ client. Sau khi có kết nối, server nhận dữ liệu từ client và có thể phản hồi ngược lại.  
-- **Client**: đóng vai trò gửi yêu cầu đến server, truyền dữ liệu/tin nhắn và chờ phản hồi.  
-- Hệ thống này mô phỏng nguyên lý cơ bản của các ứng dụng chat, truyền tin hoặc trao đổi dữ liệu trong thực tế, giúp người học nắm vững cách xây dựng ứng dụng phân tán bằng Java.  
+Chat Group RMI là một ứng dụng chat nhóm được xây dựng dựa trên công nghệ Java RMI (Remote Method Invocation). Hệ thống cho phép người dùng đăng ký, đăng nhập, gửi tin nhắn nhóm, nhắn tin riêng, gửi tệp tin, và nhận thông báo trạng thái gõ. Giao diện người dùng được thiết kế thân thiện với thư viện FlatLaf và hỗ trợ hiển thị tin nhắn với định dạng tùy chỉnh.
+
+- Các tính năng chính:
++ Đăng ký/Đăng nhập/Đăng xuất: Quản lý tài khoản người dùng.
++ Chat nhóm: Gửi và nhận tin nhắn trong nhóm.
++ Nhắn tin riêng: Gửi tin nhắn riêng giữa các người dùng.
++ Gửi tệp tin: Hỗ trợ gửi và tải tệp tin giữa các người dùng.
++ Thông báo trạng thái gõ: Hiển thị thông báo khi người dùng đang gõ tin nhắn.
++ Danh sách người dùng online: Hiển thị danh sách người dùng đang hoạt động.
++ Lịch sử trò chuyện: Lưu trữ và tải lại lịch sử tin nhắn.  
 
 ## 🔧 2. Công nghệ sử dụng
-Ngôn ngữ lập trình: Java (JDK 8+)  
-Mô hình mạng: Client–Server  
+-Ngôn ngữ lập trình: Java
 
-Kỹ thuật:  
-- Java Socket API (`java.net.Socket`, `java.net.ServerSocket`) để thiết lập kết nối TCP  
-- Luồng I/O (`InputStream`, `OutputStream`, `BufferedReader`, `PrintWriter`) để đọc/ghi dữ liệu qua mạng  
+- Công nghệ chính:
+  
++Java RMI: Sử dụng cho giao tiếp client-server thông qua gọi phương thức từ xa.
 
-IDE khuyến nghị: Eclipse hoặc IntelliJ IDEA (có thể chạy bằng terminal)  
-Hệ điều hành: Windows/Linux/macOS  
++Swing: Xây dựng giao diện người dùng đồ họa.
 
++FlatLaf: Thư viện giao diện hiện đại cho ứng dụng Swing.
+
+-Thư viện phụ trợ:
+
++FlatSVGIcon: Hỗ trợ hiển thị biểu tượng SVG trong giao diện.
+
+-Lưu trữ:
+
++Lưu trữ thông tin người dùng và lịch sử trò chuyện trong tệp tin.
+
++Công cụ quản lý thời gian: SimpleDateFormat để định dạng thời gian tin nhắn.
+
+-Môi trường chạy:
+
++Java SE Development Kit (JDK) 8 hoặc cao hơn.
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
@@ -83,87 +102,116 @@ Hệ điều hành: Windows/Linux/macOS
 
 ## Yêu cầu hệ thống
 
-- Java 8 trở lên
-- MongoDB 4.0 trở lên
-- Ant (để build project)
+-JDK: Phiên bản 8 hoặc cao hơn.
 
-## Cài đặt và chạy
+-Maven: Khuyến nghị để quản lý phụ thuộc (tùy chọn).
 
-### 1. Cài đặt MongoDB
+-Hệ điều hành: Windows, macOS, Linux.
 
-Tải và cài đặt MongoDB từ: https://www.mongodb.com/try/download/community
-Khởi động MongoDB:
-```bash
-mongod
-```
+-Thư viện: FlatLaf và FlatSVGIcon.
 
-### 2. Download dependencies
+### Hướng dẫn cài đặt
 
-```bash
-ant download-deps
-```
+1. **Tải mã nguồn**:
+   - Clone hoặc tải mã nguồn từ kho lưu trữ (repository).
 
-### 3. Build project
+2. **Cài đặt thư viện phụ thuộc**:
+   - Thêm thư viện FlatLaf và FlatSVGIcon vào dự án:
+     ```xml
+     <dependency>
+         <groupId>com.formdev</groupId>
+         <artifactId>flatlaf</artifactId>
+         <version>3.2.5</version>
+     </dependency>
+     <dependency>
+         <groupId>com.formdev</groupId>
+         <artifactId>flatlaf-extras</artifactId>
+         <version>3.2.5</version>
+     </dependency>
 
-```bash
-ant compile
-```
-
-### 4. Chạy Server
-
-```bash
-ant run-server
-```
-
-### 5. Chạy Client
-
-Mở terminal mới và chạy:
-```bash
-ant run-client
-```
-
-Hoặc chạy nhiều client để test:
-```bash
-ant run-client
-ant run-client
-ant run-client
-```
+-Nếu không sử dụng Maven, tải các tệp JAR từ FlatLaf releases và thêm vào dự án.
 
 
+-Cấu hình thư mục resources/icons:
 
-### Đăng ký/Đăng nhập
-- Mở client, nhập tên đăng nhập và mật khẩu
-- Chọn "Đăng ký" để tạo tài khoản mới
-- Chọn "Đăng nhập" để đăng nhập với tài khoản có sẵn
-
-### Chat
-- Gõ tin nhắn và nhấn Enter hoặc nút "Gửi"
-- Tin nhắn sẽ được gửi đến tất cả người dùng trong phòng hiện tại
-- Lịch sử chat được tự động load khi vào phòng
+-Tạo thư mục resources/icons trong dự án.
++ Thêm các tệp SVG (login.svg, register.svg, logout.svg, send.svg) vào thư mục này. Bạn có thể tải các biểu tượng SVG miễn phí từ các nguồn như Flaticon.
 
 
-### Thay đổi port server
-Sửa trong `Server.java`:
-```java
-private static final int PORT = 8888; // Đổi port ở đây
-```
+-Cấu hình Constants:
 
+-Đảm bảo lớp Constants.java (nếu có) được định nghĩa với các hằng số như SERVER_PORT và SERVER_NAME. Ví dụ:
 
-### Thay đổi server host
-Sửa trong `Client.java`:
-```java
-private static final String SERVER_HOST = "localhost";
-```
-
-
-### Lỗi kết nối Server
-- Đảm bảo Server đã khởi động
-- Kiểm tra port có bị chiếm không
-- Kiểm tra firewall
+javapublic class Constants {
+    public static final int SERVER_PORT = 1099;
+    public static final String SERVER_NAME = "ChatService";
+    public static final String USERS_FILE = "users.dat";
+}
 
 
 
-## Thông tin liên hệ  
+- Biên dịch dự án:
+
+Sử dụng IDE (như IntelliJ IDEA, Eclipse) hoặc lệnh Maven:
+bashmvn clean install
+
+
+
+
+-Hướng dẫn sử dụng
+
+-Khởi động Server:
+
++ Chạy lớp Server.java để khởi động RMI registry và dịch vụ chat:
+bashjava Server
+
++ Server sẽ khởi động trên cổng được định nghĩa trong Constants.SERVER_PORT (mặc định: 1099).
+
+
+-Chạy Client:
+
++ Chạy lớp ClientGUI.java để khởi động giao diện người dùng:
+bashjava ClientGUI
+
+
++ Giao diện sẽ hiển thị cửa sổ chat với các nút Đăng nhập, Đăng ký, Đăng xuất.
+
+
+-Đăng ký tài khoản:
+
++ Nhấn nút Đăng ký, nhập tên người dùng và mật khẩu để tạo tài khoản mới.
+
+
+-Đăng nhập:
+
++ Nhấn nút Đăng nhập, nhập tên người dùng và mật khẩu để tham gia trò chuyện.
+
+
+-Sử dụng các tính năng:
+
++ Gửi tin nhắn nhóm: Nhập tin nhắn vào ô văn bản và nhấn nút Gửi hoặc phím Enter.
+
++ Nhắn tin riêng: Nhấp chuột phải vào tên người dùng trong danh sách online, chọn Nhắn tin riêng, nhập tin nhắn.
+
++ Gửi tệp tin: Nhấp chuột phải vào tên người dùng, chọn Gửi tệp tin, chọn tệp để gửi.
+
++ Tải tệp tin: Khi nhận thông báo tệp tin, chọn Có để tải và chọn vị trí lưu.
+
+
+-Đăng xuất:
+
++ Nhấn nút Đăng xuất để thoát khỏi phiên trò chuyện.
+
+
+
+-Lưu ý
+
++ Đảm bảo server đang chạy trước khi khởi động client.
++ Tệp users.dat và lịch sử trò chuyện được lưu trong thư mục dự án.
++ Nếu gặp lỗi RMI, kiểm tra cổng SERVER_PORT không bị chặn bởi tường lửa.
+
+
+## 5. Thông tin liên hệ  
 Họ tên: Nguyễn Thanh Sơn
 Lớp: CNTT 16-01.  
 Email: sonn29042004@gmail.com
