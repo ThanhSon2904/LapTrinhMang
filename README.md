@@ -29,7 +29,6 @@ Chat Group RMI là một ứng dụng chat nhóm được xây dựng dựa trê
 + Chat nhóm: Gửi và nhận tin nhắn trong nhóm.
 + Nhắn tin riêng: Gửi tin nhắn riêng giữa các người dùng.
 + Gửi tệp tin: Hỗ trợ gửi và tải tệp tin giữa các người dùng.
-+ Thông báo trạng thái gõ: Hiển thị thông báo khi người dùng đang gõ tin nhắn.
 + Danh sách người dùng online: Hiển thị danh sách người dùng đang hoạt động.
 + Lịch sử trò chuyện: Lưu trữ và tải lại lịch sử tin nhắn.  
 
