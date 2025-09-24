@@ -12,7 +12,11 @@
       <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817704248_4ff8a524df07723a4f18bb38d1383399.jpg?raw=true" width="180"/>
       <img src="https://github.com/ThanhSon2904/LapTrinhMang/blob/main/RMIChat/%E1%BA%A3nh/z7026817718006_b7ad42aa92ae2479ae906d66dfcbaa90.jpg?raw=true" alt="DaiNam University Logo" width="200"/>
     </p>
+[![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
 
+[![Khoa Công nghệ Thông tin] (https://img.shields.io/badge/Faculty%20of%20Information%20T...he-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+
+[![Đại học Đại Nam](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 
 </div>
